@@ -17,4 +17,4 @@ def main(s):
                 n+=1
         i+=1 
     return len(s)-n  
-print(main("CodeschoolUz"))
+print(main("CodeschoolUzz")) 
