@@ -7,3 +7,14 @@ def main(s):
     Returns:
         int: return answer
     """
+    i = 0
+    n = 0
+    
+    while i<len(s):
+        if s[i].isalpha():
+
+            if s[i]=='a' or s[i]=='e' or s[i]=='i' or s[i]=='o' or s[i]=='u'and s[i]=='A' or s[i]=='E' or s[i]=='I' or s[i]=='O' or s[i]=='U':
+                n+=1
+        i+=1 
+    return len(s)-n  
+print(main("CodeschoolUz"))
