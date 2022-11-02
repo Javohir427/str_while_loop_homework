@@ -11,10 +11,10 @@ def main(s):
    
     
     while i < len(s) :
-        if s[i].isdigit():
+        if s[i].isalpha():
          n += 1
-        i += 1
-    return len(s)-n
+        i += 1 
+    return n
 
 
-print(main('r4gt456'))
+print(main('r4gggt456'))
