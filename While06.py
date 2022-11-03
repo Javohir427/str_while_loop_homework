@@ -11,10 +11,14 @@ def main(s):
     n = 0
     
     while i<len(s):
-        if s[i].isalpha():
+        if (s[i]).isalpha():
 
-            if s[i]=='a' or s[i]=='e' or s[i]=='i' or s[i]=='o' or s[i]=='u'and s[i]=='A' or s[i]=='E' or s[i]=='I' or s[i]=='O' or s[i]=='U':
+            if (s[i])=='a' or (s[i])=='e' or (s[i])=='i' or (s[i])=='o' or (s[i])=='u' or (s[i])=='A' or (s[i])=='E' or (s[i])=='I' or (s[i])=='O' or (s[i])=='U':
+                n+=0
+             
+            else :
                 n+=1
-        i+=1 
-    return len(s)-n  
-print(main("CodeschoolUzz")) 
+        i+=1
+
+    return n  
+print(main("CodeschoolUz")) 
